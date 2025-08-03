@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="nav_about">About Me – Nasser Chaouchi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="lang.js"></script>
+</head>
+
+<body class="bg-white text-gray-800 font-sans h-full flex flex-col">
+
+    <header class="bg-blue-900 text-white py-4">
+        <div class="max-w-6xl mx-auto px-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold">Nasser Chaouchi</h1>
+            <nav class="space-x-4">
+                <a href="index.html" class="hover:underline" data-i18n="nav_home">Home</a>
+                <a href="about.html" class="hover:underline font-semibold underline" data-i18n="nav_about">About</a>
+                <a href="experience.html" class="hover:underline" data-i18n="nav_experience">Experience</a>
+                <a href="projects.html" class="hover:underline" data-i18n="nav_projects">Projects</a>
+                <a href="skills.html" class="hover:underline" data-i18n="nav_skills">Skills</a>
+                <a href="contact.html" class="hover:underline" data-i18n="nav_contact">Contact</a>
+            </nav>
+            <select id="languageSwitcher" class="ml-4 bg-white text-black px-2 py-1 rounded text-lg">
+                <option value="en">🇬🇧</option>
+                <option value="fr">🇫🇷</option>
+            </select>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 py-16 flex-grow">
+        <h2 class="text-3xl font-bold text-blue-800 mb-8" data-i18n="about_title">About Me</h2>
+
+        <div class="flex flex-col items-center mb-10">
+            <img src="assets/picture_pro.jpeg" alt="Profile Picture" class="w-60 h-60 rounded-full shadow-lg mb-6" />
+            <p class="text-lg leading-relaxed text-center" data-i18n="about_intro">
+                Hi, I'm Nasser – a French computer science engineer with a passion for AI, data, and solving real-world
+                problems with smart technologies.
+            </p>
+        </div>
+
+        <section class="mb-10">
+            <h3 class="text-xl font-semibold text-blue-700 mb-2" data-i18n="about_education">🎓 Academic Background</h3>
+            <p data-i18n="about_education_text">
+                I graduated from the Université de Technologie de Compiègne (UTC) with a major in Artificial
+                Intelligence and Data Science. I also completed an exchange semester in Zaragoza, Spain, as part of a
+                Data Science Master's program.
+            </p>
+        </section>
+
+        <section class="mb-10">
+            <h3 class="text-xl font-semibold text-blue-700 mb-2" data-i18n="about_experience">💼 Professional Experience
+            </h3>
+            <p data-i18n="about_experience_text">
+                I had the opportunity to work at Numberly (Data Engineering & Project Management), and more recently at
+                Ubisoft as a Data Scientist, analyzing player behavior and game performance using predictive models.
+            </p>
+        </section>
+
+        <section class="mb-10">
+            <h3 class="text-xl font-semibold text-blue-700 mb-2" data-i18n="about_values">💡 What Drives Me</h3>
+            <p data-i18n="about_values_text">
+                What drives me is curiosity, a love for solving meaningful challenges, and the joy of continuous
+                learning. I value clarity, rigor, and collaboration.
+            </p>
+        </section>
+
+        <section class="mb-10">
+            <h3 class="text-xl font-semibold text-blue-700 mb-2" data-i18n="about_life">🌱 Life Outside Tech</h3>
+            <p data-i18n="about_life_text">
+                Outside of tech, I enjoy hiking, cooking, literature, and sports – especially running and chess. I'm
+                always up for a deep conversation or a spontaneous nature adventure.
+            </p>
+        </section>
+    </main>
+
+    <footer class="bg-gray-100 text-center py-6 text-sm text-gray-600">
+        <div class="flex justify-center space-x-6 items-center">
+            <a href="https://github.com/nasser-chaouchi" target="_blank" aria-label="GitHub">
+                <svg class="w-6 h-6 text-gray-700 hover:text-black transition" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 0C5.37 0 0 5.373 0 12..." />
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/nasser-chaouchi/" target="_blank" aria-label="LinkedIn">
+                <svg class="w-6 h-6 text-gray-700 hover:text-blue-700 transition" fill="currentColor"
+                    viewBox="0 0 24 24">
+                    <path d="M4.98 3.5C4.98 4.88..." />
+                </svg>
+            </a>
+            <a href="mailto:nasser.chaouchi.pro@gmail.com" aria-label="Email">
+                <svg class="w-6 h-6 text-gray-700 hover:text-red-600 transition" fill="currentColor"
+                    viewBox="0 0 512 512">
+                    <path d="M502.3 190.8L327.4 356.1..." />
+                </svg>
+            </a>
+        </div>
+        <p class="mt-4 text-xs">© 2025 Nasser Chaouchi</p>
+    </footer>
+
+</body>
+
+</html>
